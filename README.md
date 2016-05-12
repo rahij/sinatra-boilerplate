@@ -10,7 +10,7 @@ bootstrap example.
  - Copy `config/database.yml.example` into `config/database.yml`
  - Copy `.env.example` into `.env`
  - `bundle install`
- - `rake db:migrate`
+ - `bundle exec rake db:migrate`
  - In a new tab on the terminal, `rerun 'rackup -p 4000'`
  - Navigate to `localhost:4000`
 
